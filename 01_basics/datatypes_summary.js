@@ -32,3 +32,13 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp);
+
+// stack memory ( Primitive type), heap memory (Non- Primitive type)
+
+//(In stack u get a copy when u declare a variable) , ( and if a memory or object is defined in heap from there u get reference of original value)
+
+let myYotutbename = "hiteshchoudharydotcom"
+
+let anothername = "myYoutubename"
+
+console.log(anothername);
